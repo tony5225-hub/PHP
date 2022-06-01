@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Operador Aritmeticos</title>
+  <title>Operador Aritmetico</title>
 </head>
 
 <body>
@@ -14,9 +14,7 @@
   $n1 = 3;
   $n2 = 2;
   $s = $n1 + $n2;
-  echo "A soma vale " . ($n1 + $n2);
-
-
+  echo "A soma entre $n1 e $n2 é igual a $s ";
 
   ?>
 
