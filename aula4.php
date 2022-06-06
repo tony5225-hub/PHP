@@ -7,9 +7,10 @@
     <title>Document</title>
     </head>
 <body>
-    <?php
+    <?php 
     $n = 4;
     $no = "Toninho ";
+    $n= 4.5;
     echo $no ;
     ?>
 </body>
