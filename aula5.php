@@ -14,7 +14,13 @@
     $n1 = 3;
     $n2 = 2;
   
-    echo "A soma vale " ($n1+$n2);
+    echo "A soma vale " .($n1+$n2);
+    echo "A subtracao vale " .($n1-$n2);
+    echo "A Multiplicacao vale " .($n1*$n2);
+    echo "A divisao vale " .($n1/$n2);
+    echo " O modulo vale " .($n1%$n2);
+
+
   ?>
 
 
