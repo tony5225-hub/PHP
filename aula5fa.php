@@ -7,7 +7,8 @@
     <title>funcoes aritmeticas</title>
     <style>
         h2 {
-            font: 50px Arial;
+            font: 15pt Arial;
+            color: brown;
 
         }
     </style>
