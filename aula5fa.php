@@ -19,7 +19,7 @@
     $v1 = $_GET ["x"];
     $v2 = $_GET ["y"];
     echo "<h2>Valores recebidos: $v1 e $v2</h2";
-    echo " <h2>O Valor absoluto de $v2 e 3 </h2". abs($v2);
+    echo " <h2>O Valor absoluto de $v2 e 2 </h2". abs($v2);
     ?>
 </body>
 </html>
