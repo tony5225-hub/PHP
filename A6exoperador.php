@@ -7,9 +7,11 @@
     <title>Exercico de operadores</title>
 </head>
 <body>
-    <?php // este exercício mostra preço vai aparecer na url e jogar numa váriavel que vai chamar de preço.
+    <?php // este exercício mostra preço vai aparecer na url e jogar numa váriavel que vai chamar de preço e mostrar um aumento no preço.
     $preco = $_GET ["p"];
     echo "o preço do produto é R$ $preco ";
+    $preco = $preco + ($preco*10/100);
+    echo ">br/> o preço com 10% de aumento será R$ $preco ";
     ?>
 </body>
 </html>
