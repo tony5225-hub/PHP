@@ -9,7 +9,11 @@
 <body>
     <?php 
        
-                   
+     $x = "abc";
+     $$x = "def";           
+    
+    echo "O conteudo da váriavel X é $x";
+    echo "A variavel criada recebeu o valor $abc ";
     ?>
    
 </body>
