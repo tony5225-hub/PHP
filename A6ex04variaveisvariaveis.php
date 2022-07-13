@@ -13,7 +13,8 @@
      $$x = "def";           
     
     echo "O conteudo da váriavel X é $x";
-    echo "A variavel criada recebeu o valor $abc ";
+    echo "<br/>A variavel ABC criada recebeu o valor $abc "; // essa variável $abc vai virar def conforme a representação no site devido a inclusão do cifrão na váriavel $x ($$x = def) OBS: ( cifrôes antes de váriaveis vão criar váriaveis de váriaveis ou váriaveis variantes)
+    
     ?>
    
 </body>
