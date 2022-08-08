@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -9,8 +9,10 @@
 <body>
     <?php 
       $valor = $_GET["v"];
-      echo "O valor enviado foi $valor ";
+      $rq = sqrt($valor);
+      echo " A raiz de  $valor é igual a " . number_format($rq,2); /* number format para deixar a raiz quando aparece na url com 2 casas decimais */
     ?>
-   
-</body>
+    <!--<a href="A8ex01.html">Voltar</a> este comando é para exemplo não utilizxar no php-->
+
+  </body>
 </html>
