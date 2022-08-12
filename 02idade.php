@@ -8,10 +8,12 @@
 </head>
 <body>
     <?php 
-      $nome 
-      $ano
-      $sexo
+      $nome = isset ($_GET["nome"])?$_GET["nome"]:"[nao informado]";
+      $ano = isset ($_GET["ano"])?$_GET["ano"]: 0 ;
+      $sexo = isset ($_GET["sexo"])?$_GET["sexo"]: "[sem sexo]";
+      $idade = date("Y")- $ano;
+      echo "$nome e $sexo e tem $idade anos";
     ?>
-    
+    <a href="A8ex02.html">voltar</a>
   </body>
 </html>
