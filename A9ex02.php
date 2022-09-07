@@ -11,16 +11,18 @@
         <?php
         $a = isset($_GET["ano"])?$_GET["ano"]: 1900;
         $i = date ("Y") - $a;
-        echo  "Voce nasceu em $a e tera $i anos <br/>"; /*aqui inseriu a variavel $i menos o anoque nasceu para dizer quanto anos possui */
-        if ($i >= 18){ /* exemplo de votar e dirigir variavel $i e $d criada */
-            $v = "ja pode votar";
-            $d = "ja pode dirigir";
+        echo  "Voce nasceu em $a e tera $i anos <br/>"; /*aqui inseriu a variavel $i menos o ano que nasceu para dizer quanto anos possui */
+        if ($i <16){
+            $tipoVoto = "não vota";
         }
-        else {
-            $v = "nao pode votar";
-            $d = "nao pode dirigir";
+        else{
+         if ($i >=16 && $i < 18){
+            $tipoVoto = "voto opcional";
+         }
+         else{
+            $tipoVoto = "voto obrigatório";
+         }
         }
-        echo " com essa idade vc $v e tbem  $d ";
         
         ?>
     </div>
