@@ -2,22 +2,29 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="stylesheet" href="_css/estilo.css"/>
     <meta charset="UTF-8">
-    <title>Ler um número</title>
-    <style>
-        h2 {
-            color: #00a5fe;
-            text-shadow: 1px 1px 1px black;
-        }
-    </style>
-
+    <title>curso em video</title>
+        
 </head>
+    <div>
+        <form method="get" action="exercicio01.php">
+            Numero: <input type ="number" name="num"/><br?>
+            <fieldset><legend>Operacao</legend>
+                <input type="radio" name="oper" id="dobro"/>
+                <label for="dobro">Dobro</label>
+                <input type="radio" name="oper" id="cubo"/>
+                <label for="cubo">Cubo</label>
+                <input type="radio" name="oper" id="raiz"/>
+                <label for="raiz">raiz Quadrada</label>
+                
 
+            </fieldset>
+            <input type = "submit" class="botao" value = "Calcular"/> 
+        </form>
+    </div>
 <body>
-    <h1>Testando PHP</h1>
-    <?php
-    echo "<h2>Olá,<br> Mundo!!!!</h2> ";
-    ?>
+    
 </body>
 
 </html>
