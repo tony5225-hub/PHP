@@ -12,7 +12,7 @@
         $o = isset($_GET ["oper"])?$_GET["oper"]: 1;
         switch ($o){
             case 1:
-             $r = $o * 2; 
+             $r = $n * 2; 
                 break;
              case 2:  
              $r = $n ^ 3; 
@@ -24,6 +24,7 @@
         
         echo " o resultado da operacao solicitada foi <span class='foco'>$r</span "
         ?>
+        <a href= "exercicio01.html" class="botao">voltar</a>
     </div>
 </body>
 </html>
