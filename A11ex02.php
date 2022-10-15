@@ -10,9 +10,9 @@
     <div>
     <form method="get" action="02-parte2.php">
     <?php
-         $n = 1;
+         $c = 1;
          while ($c <=5) {
-            echo "Valor $n: <input type ='number' name='v$c' max= '100' min= '0'/><br/>";
+            echo "Valor $c: <input type ='number' name='v$c' max= '100' min= '0'/><br/>";
             
             $n++;
          }
